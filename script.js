@@ -9,7 +9,7 @@ var cost1 = 100;
 var upgrade_speed = 0; //the level of the speed up upgrade
 var cpu_rate = 1000; //ms between each autocpu
 var interval_auto; //storing our interval here so we can update it
-var cpu_increment = 10000000000000; //how many cpu per click
+var cpu_increment = 1; //how many cpu per click
 //functions
 var speedupPrice = 1;
 var cost2=1000;
